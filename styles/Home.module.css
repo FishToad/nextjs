@@ -1,0 +1,20 @@
+.pos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 17%;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
