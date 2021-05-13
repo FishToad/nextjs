@@ -1,5 +1,6 @@
 import layoutStyles from '../styles/Layout.module.css'
 import Nav from './Nav'
+import Footer from './Header'
 
 function Layout({ children }) {
     return (
@@ -9,6 +10,7 @@ function Layout({ children }) {
                 <main className={layoutStyles.main}>
                     {children}
                 </main>
+            <Footer />
             </div>
         </>
     )
