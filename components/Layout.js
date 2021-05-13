@@ -9,8 +9,8 @@ function Layout({ children }) {
             <div className={layoutStyles.container}>
                 <main className={layoutStyles.main}>
                     {children}
-                </main>
             <Footer />
+                </main>
             </div>
         </>
     )
