@@ -1,17 +1,17 @@
 
+
 function Footer() {
     return (
-        <div>
-            <div className='Footer'>
-                test123
-            </div>
+        <div className='Footer'>
+            test123
             <style jsx>
-          {'
-            .Footer {
-              background-color: black;
-              color: red;
-            }
-          '}
+                {`
+                    .Footer {
+                        background-color: black;
+                        height: 50px;
+                    }
+                `}
+            </style>
         </div>
     )
 }
