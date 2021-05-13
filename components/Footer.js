@@ -9,7 +9,7 @@ function Footer() {
           {'
             .Footer {
               background-color: black;
-              color: red
+              color: red;
             }
           '}
         </div>
