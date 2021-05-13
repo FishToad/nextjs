@@ -1,6 +1,6 @@
 import layoutStyles from '../styles/Layout.module.css'
 import Nav from './Nav'
-import Footer from './Header'
+import Footer from './Footer'
 
 function Layout({ children }) {
     return (
